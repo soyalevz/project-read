@@ -1,14 +1,16 @@
 // import logo from './logo.svg';
-import './App.css';
-import { Navbar } from './components/Navbar'
-import { Phrase } from './components/phrase';
+import "./App.css";
+import { Header } from "./components/Header";
+import { Phrase } from "./components/phrase.js";
 
 
 function App() {
   return (
     <div className="App">
-     <Navbar/>
-     <Phrase/>
+      <Header />
+      <Phrase />
+
+      
     </div>
   );
 }

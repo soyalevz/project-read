@@ -1,7 +1,7 @@
-export const  Navbar = () => {
+export const  Header = () => {
     return (
     
-    <header className="container">
+    <header className="header">
       <nav>
         <h2 className="logo">read and <span>read</span> </h2>
         <ul>

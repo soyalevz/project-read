@@ -3,7 +3,7 @@ export const Phrase = () => {
         <main className="phrase">
           <div>
             <h1>"Leemos para saber que no estamos solos" <cite></cite>C.S. Lewis </h1>
-            <p>Gracias por visitarnos</p>
+            <p className="parrafo">Gracias por visitarnos</p>
           </div>
         </main>
     )
